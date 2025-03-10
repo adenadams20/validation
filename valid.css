@@ -373,6 +373,7 @@ footer
 {
     border: solid;
     background: transparent;
+    display: flex;
 }
 .mise
 {
@@ -434,13 +435,15 @@ justify-content: center;}
 }
 #send
 {
-    padding: 25px;
+    padding: 15px;
     border: none;
     background: white;
 }
 #submit
 {
    padding: 16px; 
+   background: black;
+   color: white;
 }
 #work
 {

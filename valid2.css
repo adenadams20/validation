@@ -454,7 +454,54 @@ section
     background-color: rgb(3, 8, 16);
     border: solid 1px;
 }
+.holder
+{
+    border: solid;
+    background: transparent;
+    display: flex;
+}
+#send
+{
+    padding: 15px;
+    border: none;
+    background: white;
+}
+#submit
+{
+   padding: 10px; 
+}
+.col
+{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid 1px;
+    background-color: transparent;
+}
+.icone
+{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+.footer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+    border: solid 1px rgb(154, 150, 150);
+}
+.log
 
+{
+    display: flex;
+    gap: 5px;
+}
+#pay
+{
+    height: 40px;
+}
 
 
 
