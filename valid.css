@@ -642,6 +642,8 @@ body
     height: 1800px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .for
 {
@@ -649,4 +651,76 @@ body
     flex-direction: column; 
 
 }
+.container7
+{
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container8
+{
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+
+}
+.container9
+{
+    height: 1500px;
+    
+
+}
+.for
+{
+    display: flex;
+    flex-direction: column; 
+    height: 700px;
+
+}
+.for1
+{
+   display: flex;
+    flex-direction: column; 
+    align-items: center;
+    height: 700px;
+}
+.container5
+{
+    height: 500px;
+    
+    
+}
+.const
+{
+    display: flex;
+}
+.mise
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#send
+{
+    padding:1px;
+    border: none;
+    background: white;
+}
+#submit
+{
+   padding: 0px; 
+}
+footer
+{
+    gap: 10px;
+    display: flex;
+    padding: 0;
+    width: 100%;
+}
+footer p
+    { font-size: 10px;}
 }
