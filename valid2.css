@@ -1,0 +1,144 @@
+body
+{
+    margin: 0%;
+overflow-x: hidden;
+}
+ul
+{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+.nav
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+li
+{
+    display: flex;
+    flex-direction: row;
+}
+select
+{
+    height: 20px;
+    border: none;
+}
+.eco{
+    margin-right: 5svh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: solid;
+    
+}
+.logo
+{
+    width: 30svh;
+    display: flex;
+    gap: 10px;
+}
+.slide
+{
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.slide button
+{
+    height: 50px;
+    border-radius: 5px;
+}
+.perso
+{
+    position: absolute;
+    text-align: center;
+    width: 480px;
+    color: white;
+    margin-top: 90px;
+
+}
+.etoiles
+{
+position: absolute;
+margin-top: -120px;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+color: white;
+width: 470px;
+}
+
+
+#rech
+{
+    height: 3svh;
+}
+footer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    z-index: 20;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: solid 1px rgb(240, 234, 222);
+}
+section
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 150px;
+    align-items: center;
+    background-color: palegoldenrod;
+}
+.container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.text
+{
+    width: 40%;
+}
+.touch
+{
+    width: 40%;
+}
+#mess
+{
+    height: 200px;
+    width: 100%;
+}
+#send
+{
+    width: 100%;
+    background: black;
+    color: white;
+    height: 30px;
+}
+#name
+{
+    width: 50%;
+    height: 30px;
+    
+}
+.name
+{
+    display: flex;
+
+    
+    gap: 10px;
+}
+#nav1
+{
+    height: 20px;
+}
