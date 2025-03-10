@@ -158,7 +158,7 @@ section
 .img
 {
     position: relative;
-    border: solid 1px rgb(130, 130, 130);
+    border: solid 1px rgb(248, 248, 248);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -167,11 +167,23 @@ section
     height: 390px;
 
 }
+.img
+{
+    position: relative;
+    border: solid 1px rgb(248, 248, 248);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    width: 250px;
+    height: 330px;
+
+}
 .acc1
 {
     position: absolute;
     height: 50px;
-    margin-bottom: 90px;
+    margin-bottom: 10px;
 }
 .colect
 {
@@ -197,22 +209,272 @@ section
     gap: 10px;
     margin-top: 50px;
 }
+
+.cercle
+{
+    height: 15px;
+    width: 10px;
+    border-radius: 30px;
+    background-color: red;
+    border: solid 1px;
+}
+.cercle2
+{
+    height: 15px;
+    width: 10px;
+    border-radius: 30px;
+    background-color: rgb(176, 255, 5);
+    border: solid 1px;
+}
+.cercle3
+{
+    height: 15px;
+    width: 10px;
+    border-radius: 30px;
+    background-color: rgb(5, 255, 201);
+    border: solid 1px;
+}
+.cercle4
+{
+    height: 15px;
+    width: 10px;
+    border-radius: 30px;
+    background-color: rgb(5, 72, 255);
+    border: solid 1px;
+}
+.cercle5
+{
+    height: 15px;
+    width: 10px;
+    border-radius: 30px;
+    background-color: rgb(255, 5, 5);
+    border: solid 1px;
+}
+.cercle6
+{
+    height: 15px;
+    width: 10px;
+    border-radius: 30px;
+    background-color: rgb(74, 76, 69);
+    border: solid 1px;
+}
+.cercle7
+{
+    height: 15px;
+    width: 10px;
+    border-radius: 30px;
+    background-color: rgb(0, 0, 0);
+    border: solid 1px;
+}
+
+.cercle8
+{
+    height: 15px;
+    width: 10px;
+    border-radius: 30px;
+    background-color: rgb(100, 168, 28);
+    border: solid 1px;
+}
+.cercle9
+{
+    height: 15px;
+    width: 10px;
+    border-radius: 30px;
+    background-color: rgb(0, 0, 0);
+    border: solid 1px;
+}
+.cercle10
+{
+    height: 15px;
+    width: 10px;
+    border-radius: 30px;
+    background-color: rgb(254, 123, 0);
+    border: solid 1px;
+}
+.cercle11
+{
+    height: 15px;
+    width: 10px;
+    border-radius: 30px;
+    background-color: rgb(176, 147, 120);
+    border: solid 1px;
+}
+.cercle12
+{
+    height: 15px;
+    width: 10px;
+    border-radius: 30px;
+    background-color: rgb(0, 254, 110);
+    border: solid 1px;
+}
+
+.cercle13
+{
+    height: 15px;
+    width: 10px;
+    border-radius: 30px;
+    background-color: rgb(254, 97, 0);
+    border: solid 1px;
+}
+.cercle14
+{
+    height: 15px;
+    width: 10px;
+    border-radius: 30px;
+    background-color: rgb(49, 76, 46);
+    border: solid 1px;
+}
+
+.cercle15
+{
+    height: 15px;
+    width: 10px;
+    border-radius: 30px;
+    background-color: rgb(149, 255, 137);
+    border: solid 1px;
+}
+.cercle16
+{
+    height: 15px;
+    width: 10px;
+    border-radius: 30px;
+    background-color: rgb(191, 2, 2);
+    border: solid 1px;
+}
+.cercle17
+{
+    height: 15px;
+    width: 10px;
+    border-radius: 30px;
+    background-color: rgb(6, 15, 29);
+    border: solid 1px;
+}
+.cercle18
+{
+    height: 15px;
+    width: 10px;
+    border-radius: 30px;
+    background-color: rgb(0, 0, 0);
+    border: solid 1px;
+}
+.cercle19
+{
+    height: 15px;
+    width: 10px;
+    border-radius: 30px;
+    background-color: rgb(245, 240, 240);
+    border: solid 1px;
+}
+.cercle20
+{
+    height: 15px;
+    width: 10px;
+    border-radius: 30px;
+    background-color: rgb(62, 45, 45);
+    border: solid 1px;
+}
+.cercle21
+{
+    height: 15px;
+    width: 10px;
+    border-radius: 30px;
+    background-color: rgb(6, 6, 6);
+    border: solid 1px;
+}
+.cercle22
+{
+    height: 15px;
+    width: 10px;
+    border-radius: 30px;
+    background-color: rgb(216, 58, 227);
+    border: solid 1px;
+}
+.cercle23
+{
+    height: 15px;
+    width: 10px;
+    border-radius: 30px;
+    background-color: rgb(0, 0, 0);
+    border: solid 1px;
+}
+.cercle24
+{
+    height: 15px;
+    width: 10px;
+    border-radius: 30px;
+    background-color: rgb(253, 253, 253);
+    border: solid 1px;
+}
+.cercle25
+{
+    height: 15px;
+    width: 10px;
+    border-radius: 30px;
+    background-color: rgb(0, 0, 0);
+    border: solid 1px;
+}
+.cercle26
+{
+    height: 15px;
+    width: 10px;
+    border-radius: 30px;
+    background-color: rgb(8, 146, 17);
+    border: solid 1px;
+}
+.cercle27
+{
+    height: 15px;
+    width: 10px;
+    border-radius: 30px;
+    background-color: rgb(0, 0, 0);
+    border: solid 1px;
+}
+.cercle28
+{
+    height: 15px;
+    width: 10px;
+    border-radius: 30px;
+    background-color: rgb(190, 190, 190);
+    border: solid 1px;
+}
+
+.cercle29
+{
+    height: 15px;
+    width: 10px;
+    border-radius: 30px;
+    background-color: rgb(253, 91, 5);
+    border: solid 1px;
+}
+.cercle30
+{
+    height: 15px;
+    width: 10px;
+    border-radius: 30px;
+    background-color: rgb(3, 8, 16);
+    border: solid 1px;
+}
+
+
+
+
+
 @media screen and(max-width:800px) {
-.containern
-{
-    justify-content: center;
-    display: flex;
-    height: 500px;
-}
-
-.colect
-{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    justify-content: center;
-    width: 10%;
-}
-
+    .containern
+    {
+        justify-content: center;
+        display: flex;
+        height: 500px;
+    }
+    
+    .colect
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        width: 100%;
+    }
+    
     }
     
