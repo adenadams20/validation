@@ -195,10 +195,19 @@ section
     justify-content: center;
     width: 90%;
 }
+.colect1
+{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    width: 90%;
+}
 .containern
 {
     justify-content: center;
     display: flex;
+    border: solid 1px rgb(236, 230, 218);
 }
 .touch
 {
@@ -531,18 +540,16 @@ a
 @media screen and (max-width:800px) {
     .containern
     {
-        justify-content: center;
-        display: flex;
-        height: 500px;
     }
     
-    .colect
+    .colect1
     {
         display: flex;
         flex-direction: column;
         gap: 20px;
-        justify-content: center;
+        align-items: center;
         width: 100%;
+        height: 1700px;
     }
     .container
     {
@@ -564,6 +571,7 @@ a
 {
    padding: 0px; 
 }
+
 footer
 {
     display: flex;
@@ -590,6 +598,23 @@ footer
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+.touch
+{
+    border: solid 1px rgb(251, 249, 247);
+    height: 5500px;
+    display: flex;
+
+}
+.img
+{
+}
+.colect
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1900px;
 }
     
     }
