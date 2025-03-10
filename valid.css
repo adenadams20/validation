@@ -18,6 +18,15 @@ ul
     justify-content: space-between;
 
 }
+a{
+    text-decoration: none;
+    color: black;
+
+}
+:active
+{
+    color: blue;
+}
 .eco{
     margin-right: 5svh;
     display: flex;
